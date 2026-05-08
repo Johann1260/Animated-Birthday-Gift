@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     transform: translateY(-200px);
-    animation: translateYFlag 1.5s 2s forwards;
+    animation: translateYFlag 1.15s 1.54s forwards;
 }
 @keyframes translateYFlag{
     to{
@@ -74,7 +74,7 @@ body {
 }
 .left .btn{
     transform: scale(0);
-    animation: scaleCricle 2s 16s forwards ease-in-out;
+    animation: scaleCricle 1.54s 12.3s forwards ease-in-out;
 }
 #btn__letter{
     position: relative;
@@ -92,7 +92,7 @@ body {
     cursor: pointer;
     z-index: 2;
     transform: scale(1);
-    transition: all .5s ease-in-out;
+    transition: all .385s ease-in-out;
     color: black;
 }
 #btn__letter:active{
@@ -109,7 +109,7 @@ body {
 }
 
 #btn__letter:hover i{
-    animation: rotateHeart 1s infinite linear;
+    animation: rotateHeart 0.77s infinite linear;
 }
 @keyframes rotateHeart{
     0%,50%, 100%{
@@ -150,7 +150,7 @@ body {
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
-    animation: txtTranslateY .5s var(--t) forwards;
+    animation: txtTranslateY 0.385s var(--t) forwards;
 }
 @keyframes txtTranslateY{
     100%{
@@ -169,7 +169,7 @@ body {
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
-    animation: topHat 4s 7s forwards ease;
+    animation: topHat 3.08s 5.38s forwards ease;
 }
 @keyframes topHat{
     20%, 30%{
@@ -200,7 +200,7 @@ body {
     opacity: 0;
     visibility: hidden;
     width: 0px;
-    animation: dateOfBirth 5s 9s forwards;
+    animation: dateOfBirth 3.85s 6.92s forwards;
 }
 @keyframes dateOfBirth{
     20%,40%{
@@ -244,7 +244,7 @@ body {
 .right .box__account{
     position: relative;
     transform: translateY(700px);
-    animation: topBoxImage 8s 7s forwards ease-in;
+    animation: topBoxImage 6.15s 5.38s forwards ease-in;
 }
 @keyframes topBoxImage{
     to{
@@ -274,7 +274,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 2.31s 11.54s forwards ease-in-out;
 }
 @keyframes scaleCricle {
     0%{
@@ -300,7 +300,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: rotateCricle 5s linear infinite;
+    animation: rotateCricle 3.85s linear infinite;
 }
 @keyframes rotateCricle{
     to{
@@ -321,7 +321,7 @@ body {
 .fa-heart{
     color: var(--color-heart);
     filter: drop-shadow(0 0 3px var(--color-heart));
-    animation: scaleHeart 1s infinite linear;
+    animation: scaleHeart 0.77s infinite linear;
 }
 .cricle .fa-heart{
     position: absolute;
@@ -336,7 +336,7 @@ body {
     position: absolute;
     top: -70px;
     left: -70px;
-    animation: balloon1 2s infinite linear;
+    animation: balloon1 1.54s infinite linear;
 }
 @keyframes balloon1{
     0%, 50%,100%{
@@ -358,7 +358,7 @@ body {
     right: -65px;
     z-index: -1;
     transform: rotate(10deg);
-    animation: balloon2 2s infinite linear;
+    animation: balloon2 1.54s infinite linear;
 }
 @keyframes balloon2 {
     0%,50%,100%{
@@ -380,8 +380,8 @@ body {
     transform: scale(0);
     background-color: var(--color-black);
     clip-path: polygon(0 50%, 35% 35%, 50% 0, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%);
-    animation: scaleCricle 3s var(--t) forwards, 
-            scaleStar 2s 16s infinite ease-in-out;
+    animation: scaleCricle 2.31s var(--t) forwards, 
+            scaleStar 1.54s 12.3s infinite ease-in-out;
 }
 .decorate_star.star1{
     width: 20px;
@@ -431,28 +431,28 @@ body {
     top: 250px;
     left: 50px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2.31s var(--t) forwards ease-in-out;
 }
 .decorate_flower--two{
     position: absolute;
     top: 225px;
     left: 540px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2.31s var(--t) forwards ease-in-out;
 }
 .decorate_flower--three{
     position: absolute;
     top: 150px;
     right: 235px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2.31s var(--t) forwards ease-in-out;
 }
 .smiley__icon{
     position: absolute;
     bottom: 180px;
     left: 600px;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 2.31s 11.54s forwards ease-in-out;
 }
 
 
@@ -530,7 +530,7 @@ body {
     width: 100%;
 }
 #heart__letter.animationOp{
-    animation: opacityHeart 1s 1s forwards;
+    animation: opacityHeart 0.77s 0.77s forwards;
 }
 @keyframes opacityHeart{
     to{
@@ -542,7 +542,7 @@ body {
     opacity: 0;
 }
 .content__letter .left .heart.animation{
-    animation: scaleHeartLetter 1s var(--t) infinite ease-in-out;
+    animation: scaleHeartLetter 0.77s var(--t) infinite ease-in-out;
 }
 @keyframes scaleHeartLetter{
     0%{
@@ -590,7 +590,7 @@ body {
     top: -100px;
 }
 .love__img.animationOp{
-    animation: opacityHeart 1s 1s forwards;
+    animation: opacityHeart 0.77s 0.77s forwards;
 }
 .content__letter .right .text__letter{
     margin-top: 60px;
@@ -605,7 +605,7 @@ body {
     opacity: 0;
 }
 #mewmew.animationOp{
-    animation: opacityHeart 1s 1s forwards;
+    animation: opacityHeart 0.77s 0.77s forwards;
 }
 
 
@@ -666,7 +666,6 @@ body {
 
     #btn__letter {
         position: relative;
-        /* margin-top: 17px; */
         margin-bottom: 50px;
         width: 209px;
         background-color: var(--color-text-pink);
@@ -681,8 +680,7 @@ body {
         justify-content: center;
         cursor: pointer;
         z-index: 2;
-        /* transform: scale(1); */
-        transition: all .5s ease-in-out;
+        transition: all .385s ease-in-out;
         color: black;
     }
 
@@ -694,7 +692,7 @@ body {
         justify-content: center;
         align-items: center;
         transform: scale(0);
-        animation: scaleCricle 3s 15s forwards ease-in-out;
+        animation: scaleCricle 2.31s 11.54s forwards ease-in-out;
     }
 
     .title .hat {
@@ -703,7 +701,7 @@ body {
         top: -51px !important;
         transform: rotate(-40deg);
         z-index: -1;
-        animation: topHat 4s 7s forwards ease;
+        animation: topHat 3.08s 5.38s forwards ease;
     }
 
     .box__letter .letter__border {
@@ -759,9 +757,7 @@ body {
     }
 
     .love__img img {
- 
-            width: 84px;
-
+        width: 84px;
     }
 
     .content .right .image {
@@ -790,67 +786,10 @@ body {
         position: absolute;
         top: 10px;
         left: -77px;
-        animation: balloon1 2s infinite linear;
+        animation: balloon1 1.54s infinite linear;
     }
 
     .right .balloon_one img{
         width: 76px !important;
     }
-    body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: #ffe6f0;
-  text-align: center;
-}
-
-.container {
-  margin-top: 100px;
-}
-
-h1 {
-  color: #d63384;
-  font-size: 48px;
-  /* margin-bottom: 40px; */
-}
-
-h1 .birthday {
-  color: #d63384;
-  font-size: 48px;
-  margin-bottom: 80px;
-}
-
-.button-group button {
-   position: relative;
-    right: 0px;
-    top: -200px;
-    background-color: var(--color-text-pink);
-    outline: none;
-    padding: 5px 20px;
-    font-size: 10px;
-    border-radius: 50px;
-    border: 3px solid var(--color-black);
-    font-family: "Sriracha", cursive;
-    display: flat;
-    align-items:center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 22;
-    transform: scale(1);
-    transition: all .5s ease-in-out;
-}
-
-.button-group button:hover {
-  background-color: #ff1493;
-  transform: scale(1.05);
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(255, 105, 180, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0); }
-}
-
-    
-
 }
