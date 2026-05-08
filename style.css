@@ -93,6 +93,7 @@ body {
     z-index: 2;
     transform: scale(1);
     transition: all .5s ease-in-out;
+    color: black;
 }
 #btn__letter:active{
     transform: scale(0.7);
@@ -682,6 +683,7 @@ body {
         z-index: 2;
         /* transform: scale(1); */
         transition: all .5s ease-in-out;
+        color: black;
     }
 
     .cricle {
